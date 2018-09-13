@@ -1,0 +1,26 @@
+{
+  "chromeLocal": {
+    "maxInstances": 1,
+    "browserName": "chrome"
+  },
+  "chromeBrowserstack": {
+    "maxInstances": 1,
+    "browserName": "chrome",
+    "browserstack.user": "<browserstack_user>",
+    "browserstack.key": "<browserstack_key>",
+    "resolution": "<browserstack_vm_resolution>",
+    "platform": "<browserstack_os_platform>",
+    "browserstack.debug": true
+  },
+  "chromeSauceLabs": {
+    "browserName": "chrome",
+    "version": "<saucelabs_browser_version>",
+    "platform": "<saucelabs_os_platform>",
+    "username": "<saucelabs_username>",
+    "accessKey": "<saucelabs_access_key>"
+  },
+  "firefoxLocal": {
+    "maxInstances": 1,
+    "browserName": "firefox"
+  }
+}
